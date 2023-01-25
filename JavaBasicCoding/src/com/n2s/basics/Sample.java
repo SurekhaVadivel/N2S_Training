@@ -3,6 +3,10 @@ package com.n2s.basics; //should be the first statement
 public class Sample {
 	
 	public int age = 10;
+	
+	/*private Sample(){
+		
+	}*/
 	//static method can be accessed without object
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
