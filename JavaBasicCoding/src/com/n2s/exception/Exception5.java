@@ -18,7 +18,9 @@ public class Exception5 {
 		catch(InvalidAgeException ie){
 			ie.printStackTrace();
 		}
-		
+		finally{
+			sc.close();
+		}
 		System.out.println("Maintaining the flow after exception");
 	}
 
